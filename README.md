@@ -6,6 +6,16 @@ This project focuses on sentiment classification of Arabic hotel reviews.
 
 The goal is to classify each review as either **positive** or **negative** using different Machine Learning and Deep Learning approaches.
 
+## Project Structure
+
+```text
+arabic-sentiment-analysis/
+│
+├── arabic-sentiment-analysis.ipynb
+├── submission.csv
+└── README.md
+```
+
 ## Dataset
 
 The dataset contains Arabic hotel reviews with the following main information:
@@ -101,6 +111,15 @@ The **LSTM** achieved the highest validation accuracy of **94.22%** among the ev
 Misclassified validation reviews were inspected to better understand cases where the LSTM model made incorrect predictions.
 
 Examples included reviews where the actual sentiment differed from the predicted sentiment.
+
+## Future Improvements
+
+Possible improvements include:
+
+- Experimenting with different sequence lengths and model hyperparameters.
+- Applying more advanced Arabic text preprocessing.
+- Exploring pretrained Arabic language models.
+- Further analyzing misclassified reviews.
 
 ## Final Prediction
 
