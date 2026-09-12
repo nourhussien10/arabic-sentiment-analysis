@@ -85,6 +85,13 @@ The following architectures were evaluated:
 | GRU | 93.75% |
 | Transformer-based Model | 92.01% |
 
+## Key Results
+
+- Evaluated 7 Machine Learning and Deep Learning models.
+- The best validation accuracy was achieved by the LSTM model: **94.22%**.
+- Logistic Regression with TF-IDF unigrams and bigrams achieved **93.77%**.
+- The dataset contains approximately 84K Arabic hotel reviews with balanced sentiment classes.
+
 ### Best Model
 
 The **LSTM** achieved the highest validation accuracy of **94.22%** among the evaluated models.
